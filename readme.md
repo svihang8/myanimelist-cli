@@ -1,40 +1,33 @@
-![banner image](./assets/banner.png)
+# MyAnimeList - CLI
+This is a fun passion project I made for my love of anime / manga and obsession with managing my list. MyAnimeList is a reliable source for information on anime production and keeping track of your list, however the UI is a significant step down for what is available in the market. Instead of revamping the front end of the code, I made a command line tool to manage my own anime list. You can too, by cloning this repository.
 
-<div align = "center"><h3>A nodejs template to quickly get you started with your cli tool.</h3> </div>
+## Getting Started
 
-# Usage 🚀
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Template Setup 💥
+### Prerequisites
+You will need node.js installed on your local environemnt.
+You will need to generate your own API key from myanimelist. Since the API key limits the number of requests, this project will not be hosted.
 
-- Either fork the repo or click on the Use this template button to create a new repository with this template.
-- Now clone the repo, open it in your preferred code editor, and install all the dependencies using `npm install`.
+### Installing
 
-### CLI Setup ⚙
-- Open `package.json` file and enter desired data in empty attributes e.g _name_.
-- Replace `command-name` with desired command in the _bin_ attribute.
-- Add your username in the license file in place of `your-name`.
-- Now to configure and test cli locally run `npm link` in the project directory.
-- Now simply start coding in `cli.js`
+A step by step series of examples that tell you how to get a development env running
 
-# Preview 🔎
+Say what the step will be
+Clone repository.
+```
+git clone https://github.com/svihang8/myanimelist-cli.git
+```
+install required dependencies
+```
+npm i
+```
+Change the api key and enjoy.
 
-![preview image](./assets/preview.png)
+## Deployment
+Due to limitation of key requests, this project is not deployed as it can not be scaled.
 
-# PROPS 🙌🏻 
-- Header Image by [Afzal Ashraf](https://github.com/afzalashraf666)
-
-
-# AUTHOR 👨🏻‍💻
-
-🙋🏻‍♂️ Yo! It's Meer, a junior year CS undergrad. Let's get connected
-
-<a href="https://twitter.com/meerhamzadev"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>&nbsp;
-<a href="https://linkedin.com/in/meerhamzadev/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
-<a href="mailto:hamzababar37@gmail.com?subject=From%20GitHub&body=Hi,%20there.%20Found%20you%20from%20GitHub."><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>&nbsp;
-
-
-# External Link⚡
-
-To get an idea of different files used in the project. You can read this article by [Saad Irfan](https://github.com/msaaddev/).
-
-[Read Article](https://dev.to/msaaddev/files-every-open-source-project-must-have-2mmm)
+## Contributing
+To contribute, fork this repository and add your own functions. As long as the functionality works, anything goes!
+## Authors
+* **Vihang Shah** - https://github.com/svihang8 - *end to end application* - [svihang8](https://github.com/svihang8)
